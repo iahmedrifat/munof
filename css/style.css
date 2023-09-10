@@ -70,7 +70,7 @@ header{
     top: 60px;
     height: 0;
     width: 300px;
-    background: rgba(97, 99, 163, 0.1);
+    background: rgb(43, 43, 49);
     backdrop-filter: blur (15px);
     border-radius: 10px;
     overflow: hidden;
@@ -110,6 +110,7 @@ header{
     }
     .dropdown_menu{
         display: block;
+        z-index: 100;
     }
 }
 @media (max-width: 576px) {
